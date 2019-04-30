@@ -1,5 +1,7 @@
 # hashSort
-A sorting algorithm that is faster than ShellSort when the range of values is smaller than the number of elements
+A sorting algorithm that is has O(n+k) where k is difference between the largest value and smallest value.
+
+It is faster than ShellSort when the range of values is smaller than the number of elements.
 
 
 ```javascript
