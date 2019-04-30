@@ -58,8 +58,8 @@ let hashSortObjectsWithNonUniqueVals = (unsortedArray,valFunction)=>{
   unsortedArray.forEach(val=>{
     v= valFunction(val);
     myHash[v]=myHash[v]?myHash[v].push(val):[val];
-    if(val>max) max = val;
-    if(val<min) min = val;
+    if(v>max) max = v;
+    if(v<min) min = v;
   });
 
   let count = 0;
