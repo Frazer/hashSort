@@ -3,6 +3,8 @@ A sorting algorithm that is has O(n+k) where k is difference between the largest
 
 It is faster than ShellSort when the range of values is smaller than the number of elements.
 
+It is similar to Counting sort or a simplified Bucket sort.
+
 
 ```javascript
 let hashSort = (unsortedArray)=>{
